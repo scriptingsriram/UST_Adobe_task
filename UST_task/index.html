@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body onload="updateDB()">
+
+
+    <div class="top">
+        <nav class="navi">
+            <ul class="list-main">
+                <li class="primary"> <a href="#" class="company-logo" style="color: white">
+                        <h1 id="logo-main">Stripe</h1>
+                    </a> </li>
+                <li class="secondry" id="nav-main-list">
+
+
+                </li>
+                <li class="company-login"> <a href="#" style="color: white"><span>Support</span></a> <a href="#"
+                        style="color: white"><span>Sign in</span></a> </li>
+
+                <li class="menu-icon" style="display: flex; justify-content: flex-end; list-style: none">
+                    <a href="javascript:void(0);" style="position: relative; color: black" class="icon-menu"
+                        onclick="showNav('popShow')">
+                        <i class="fa fa-bars"></i>
+                    </a>
+
+                    <div class="media-show" id='popShow'>
+                        <a class="close-media" onclick="hidePop('popShow')"></a>
+                        <div class="popup" id='popup-show'>
+                            <h4>Products </h4>
+                            <div>
+                                <ul>
+                                    <li><a href="#">Payments</a></li>
+                                    <li><a href="#">billing</a></li>
+                                    <li><a href="#">collect</a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </li>
+
+            </ul>
+        </nav>
+    </div>
+
+
+
+
+
+    <div class="main">
+
+    </div>
+
+    <section id="top-1">
+        <div class="sec-main" style="background-color: rgb(235, 235, 235); height: 1050px;">
+
+        </div>
+
+    </section>
+
+
+
+
+
+
+    <script src="./js/main.js"></script>
+    <script src="./js//event.js"></script>
+</body>
+
+</html>
